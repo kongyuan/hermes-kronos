@@ -27,6 +27,17 @@ OUTPUT_DIR = Path(__file__).parent
 OUTPUT_FILE = OUTPUT_DIR / "latest.json"
 
 # ── K 线拉取 ──
+def _safe_float(v):
+    """腾讯字段可能是 str/int/float/list/dict，只取可转 float 的值"""
+    if isinstance(v, (int, float)):
+        return float(v)
+    if isinstance(v, str):
+        try:
+            return float(v)
+        except ValueError:
+            return 0.0
+    return 0.0
+
 def fetch_kline(code, count=250):
     """拉腾讯财经日线"""
     url = f"http://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param={code},day,,,{count},qfq"
@@ -57,12 +68,12 @@ def fetch_kline(code, count=250):
     for k in klines:
         timestamps.append(k[0])
         ohlcv.append([
-            float(k[1]),   # open
-            float(k[2]),   # close
-            float(k[3]),   # high
-            float(k[4]),   # low
-            float(k[5]),   # volume
-            float(k[6]) if len(k) > 6 and k[6] else 0.0,  # amount
+            _safe_float(k[1]) if len(k) > 1 else 0.0,  # open
+            _safe_float(k[2]) if len(k) > 2 else 0.0,  # close
+            _safe_float(k[3]) if len(k) > 3 else 0.0,  # high
+            _safe_float(k[4]) if len(k) > 4 else 0.0,  # low
+            _safe_float(k[5]) if len(k) > 5 else 0.0,  # volume
+            _safe_float(k[6]) if len(k) > 6 else 0.0,  # amount
         ])
 
     return timestamps, ohlcv, float(ohlcv[-1][1])  # last close
