@@ -1,0 +1,4 @@
+Kronos/
+__pycache__/
+*.pyc
+.venv/
