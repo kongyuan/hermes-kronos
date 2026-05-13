@@ -15,11 +15,23 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 # ── 配置 ──
-WATCHLIST = [
-    ("sh603019", "中科曙光"),
-    ("sh603989", "艾华集团"),
-    ("sz300124", "汇川技术"),
-]
+def load_watchlist():
+    """从 stopwatch.py 动态读取持仓列表"""
+    watchlist_path = Path(__file__).parent / "stopwatch.py"
+    if watchlist_path.exists():
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("stopwatch", watchlist_path)
+        stopwatch = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(stopwatch)
+        return [(p["code"], p["name"]) for p in stopwatch.POSITIONS]
+    # 兜底
+    return [
+        ("sh603019", "中科曙光"),
+        ("sh603989", "艾华集团"),
+        ("sz300124", "汇川技术"),
+    ]
+
+WATCHLIST = load_watchlist()
 PRED_LEN = 5       # 预测未来 5 根 K 线
 LOOKBACK = 250      # 用最近 250 天
 MIN_KLINE = 120     # 最少需要 120 天数据才能预测
