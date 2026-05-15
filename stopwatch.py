@@ -15,10 +15,8 @@ from datetime import date as _date
 _TODAY = _date.today().isoformat()
 
 POSITIONS = [
-    {"code": "sh603019", "name": "中科曙光", "cost": 54.003, "stop": 85.99, "target": 106.00, "shares": 100, "buy_date": "2026-05-08"},
-    {"code": "sz300274", "name": "阳光电源", "cost": 141.48, "stop": 134.00, "target": 146.00, "shares": 100, "buy_date": "2026-05-13"},
-    {"code": "sh603501", "name": "豪威集团", "cost": 100.536, "stop": 97.00, "target": 110.00, "shares": 200, "buy_date": "2026-05-13"},
-    {"code": "sz300373", "name": "扬杰科技", "cost": 83.17, "stop": 75.00, "target": 92.00, "shares": 100, "buy_date": "2026-05-13"},
+    {"code": "sz300623", "name": "捷捷微电", "cost": 31.84, "stop": 30.85, "target": 33.39, "shares": 200, "buy_date": "2026-05-14"},
+    {"code": "sh603501", "name": "豪威集团", "cost": 96.638, "stop": 97.00, "target": 110.00, "shares": 100, "buy_date": "2026-05-13"},
 ]
 
 TENCENT_URL = "http://qt.gtimg.cn/q="
