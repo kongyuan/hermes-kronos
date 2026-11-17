@@ -1,109 +1,109 @@
 {
-  "generated_at": "2026-11-16T04:47:19.027976",
+  "generated_at": "2026-11-17T06:34:45.205019",
   "model": "Kronos-small",
   "runtime": "GitHub Actions (CPU)",
   "pred_len": 5,
   "predictions": {
     "sz300623": {
       "name": "捷捷微电",
-      "last_close": 24.99,
-      "latest_date": "2026-11-16",
+      "last_close": 24.46,
+      "latest_date": "2026-11-17",
       "kline_count": 261,
       "forecast": [
         {
-          "date": "2026-11-17",
-          "open": 24.95,
-          "high": 26.12,
-          "low": 24.5,
-          "close": 25.88
-        },
-        {
           "date": "2026-11-18",
-          "open": 25.93,
-          "high": 26.45,
-          "low": 25.59,
-          "close": 25.83
+          "open": 24.65,
+          "high": 25.04,
+          "low": 24.46,
+          "close": 24.59
         },
         {
           "date": "2026-11-19",
-          "open": 25.99,
-          "high": 26.45,
-          "low": 25.81,
-          "close": 26.03
+          "open": 24.59,
+          "high": 25.3,
+          "low": 24.22,
+          "close": 24.62
         },
         {
           "date": "2026-11-20",
-          "open": 26.37,
-          "high": 26.97,
-          "low": 26.03,
-          "close": 26.22
+          "open": 24.71,
+          "high": 25.33,
+          "low": 24.57,
+          "close": 24.9
         },
         {
           "date": "2026-11-23",
-          "open": 26.23,
-          "high": 27.17,
-          "low": 25.93,
-          "close": 26.7
+          "open": 25.0,
+          "high": 25.57,
+          "low": 24.7,
+          "close": 25.03
+        },
+        {
+          "date": "2026-11-24",
+          "open": 25.09,
+          "high": 25.77,
+          "low": 25.01,
+          "close": 25.41
         }
       ],
       "summary": {
-        "pred_close": 26.7,
-        "pred_high": 27.17,
-        "pred_low": 24.5,
-        "change_pct": 6.84,
+        "pred_close": 25.41,
+        "pred_high": 25.77,
+        "pred_low": 24.22,
+        "change_pct": 3.88,
         "direction": "🟢看涨",
-        "volatility": 10.0
+        "volatility": 6.1
       }
     },
     "sh603501": {
       "name": "豪威集团",
-      "last_close": 86.91,
-      "latest_date": "2026-11-16",
+      "last_close": 87.49,
+      "latest_date": "2026-11-17",
       "kline_count": 261,
       "forecast": [
         {
-          "date": "2026-11-17",
-          "open": 86.42,
-          "high": 87.45,
-          "low": 84.94,
-          "close": 85.77
-        },
-        {
           "date": "2026-11-18",
-          "open": 85.98,
-          "high": 87.18,
-          "low": 84.79,
-          "close": 85.61
+          "open": 87.85,
+          "high": 90.08,
+          "low": 86.91,
+          "close": 88.88
         },
         {
           "date": "2026-11-19",
-          "open": 85.72,
-          "high": 86.8,
-          "low": 84.18,
-          "close": 85.08
+          "open": 88.7,
+          "high": 90.17,
+          "low": 87.68,
+          "close": 88.68
         },
         {
           "date": "2026-11-20",
-          "open": 85.61,
-          "high": 87.1,
-          "low": 84.39,
-          "close": 85.55
+          "open": 89.05,
+          "high": 91.42,
+          "low": 87.36,
+          "close": 88.35
         },
         {
           "date": "2026-11-23",
-          "open": 85.3,
-          "high": 87.9,
-          "low": 84.4,
-          "close": 87.02
+          "open": 88.88,
+          "high": 89.73,
+          "low": 87.15,
+          "close": 87.74
+        },
+        {
+          "date": "2026-11-24",
+          "open": 87.93,
+          "high": 88.97,
+          "low": 85.99,
+          "close": 86.74
         }
       ],
       "summary": {
-        "pred_close": 87.02,
-        "pred_high": 87.9,
-        "pred_low": 84.18,
-        "change_pct": 0.13,
-        "direction": "🟢看涨",
-        "volatility": 4.27
+        "pred_close": 86.74,
+        "pred_high": 91.42,
+        "pred_low": 85.99,
+        "change_pct": -0.86,
+        "direction": "🔴看跌",
+        "volatility": 6.26
       }
     }
   }
