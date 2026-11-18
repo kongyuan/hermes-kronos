@@ -1,0 +1,110 @@
+{
+  "generated_at": "2026-11-18T05:56:27.539579",
+  "model": "Kronos-small",
+  "runtime": "GitHub Actions (CPU)",
+  "pred_len": 5,
+  "predictions": {
+    "sz300623": {
+      "name": "捷捷微电",
+      "last_close": 24.86,
+      "latest_date": "2026-11-18",
+      "kline_count": 261,
+      "forecast": [
+        {
+          "date": "2026-11-19",
+          "open": 24.86,
+          "high": 25.32,
+          "low": 24.7,
+          "close": 24.94
+        },
+        {
+          "date": "2026-11-20",
+          "open": 25.09,
+          "high": 25.54,
+          "low": 24.93,
+          "close": 25.18
+        },
+        {
+          "date": "2026-11-23",
+          "open": 25.46,
+          "high": 26.09,
+          "low": 24.72,
+          "close": 25.71
+        },
+        {
+          "date": "2026-11-24",
+          "open": 25.78,
+          "high": 26.49,
+          "low": 25.55,
+          "close": 26.01
+        },
+        {
+          "date": "2026-11-25",
+          "open": 26.09,
+          "high": 26.85,
+          "low": 25.71,
+          "close": 26.35
+        }
+      ],
+      "summary": {
+        "pred_close": 26.35,
+        "pred_high": 26.85,
+        "pred_low": 24.7,
+        "change_pct": 5.99,
+        "direction": "🟢看涨",
+        "volatility": 8.16
+      }
+    },
+    "sh603501": {
+      "name": "豪威集团",
+      "last_close": 85.92,
+      "latest_date": "2026-11-18",
+      "kline_count": 261,
+      "forecast": [
+        {
+          "date": "2026-11-19",
+          "open": 86.54,
+          "high": 88.22,
+          "low": 85.61,
+          "close": 86.86
+        },
+        {
+          "date": "2026-11-20",
+          "open": 87.05,
+          "high": 88.58,
+          "low": 84.7,
+          "close": 86.86
+        },
+        {
+          "date": "2026-11-23",
+          "open": 87.41,
+          "high": 88.46,
+          "low": 85.15,
+          "close": 85.66
+        },
+        {
+          "date": "2026-11-24",
+          "open": 86.1,
+          "high": 87.39,
+          "low": 84.7,
+          "close": 85.76
+        },
+        {
+          "date": "2026-11-25",
+          "open": 86.21,
+          "high": 87.71,
+          "low": 84.67,
+          "close": 85.75
+        }
+      ],
+      "summary": {
+        "pred_close": 85.75,
+        "pred_high": 88.58,
+        "pred_low": 84.67,
+        "change_pct": -0.2,
+        "direction": "🔴看跌",
+        "volatility": 4.56
+      }
+    }
+  }
+}
