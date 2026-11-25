@@ -1,109 +1,109 @@
 {
-  "generated_at": "2026-11-24T08:25:49.140596",
+  "generated_at": "2026-11-25T07:01:51.097811",
   "model": "Kronos-small",
   "runtime": "GitHub Actions (CPU)",
   "pred_len": 5,
   "predictions": {
     "sz300623": {
       "name": "捷捷微电",
-      "last_close": 24.41,
-      "latest_date": "2026-11-24",
+      "last_close": 22.6,
+      "latest_date": "2026-11-25",
       "kline_count": 261,
       "forecast": [
         {
-          "date": "2026-11-25",
-          "open": 24.78,
-          "high": 25.75,
-          "low": 24.82,
-          "close": 25.38
-        },
-        {
           "date": "2026-11-26",
-          "open": 25.31,
-          "high": 25.94,
-          "low": 25.18,
-          "close": 25.52
+          "open": 22.9,
+          "high": 23.76,
+          "low": 23.04,
+          "close": 23.48
         },
         {
           "date": "2026-11-27",
-          "open": 25.6,
-          "high": 26.28,
-          "low": 25.56,
-          "close": 25.91
+          "open": 23.63,
+          "high": 24.78,
+          "low": 23.62,
+          "close": 24.59
         },
         {
           "date": "2026-11-30",
-          "open": 26.09,
-          "high": 26.97,
-          "low": 25.79,
-          "close": 26.43
+          "open": 24.93,
+          "high": 25.86,
+          "low": 23.92,
+          "close": 25.25
         },
         {
           "date": "2026-12-01",
-          "open": 26.53,
-          "high": 27.19,
-          "low": 25.84,
-          "close": 26.51
+          "open": 25.4,
+          "high": 26.14,
+          "low": 25.16,
+          "close": 25.45
+        },
+        {
+          "date": "2026-12-02",
+          "open": 25.63,
+          "high": 26.15,
+          "low": 25.24,
+          "close": 25.38
         }
       ],
       "summary": {
-        "pred_close": 26.51,
-        "pred_high": 27.19,
-        "pred_low": 24.82,
-        "change_pct": 8.6,
+        "pred_close": 25.38,
+        "pred_high": 26.15,
+        "pred_low": 23.04,
+        "change_pct": 12.3,
         "direction": "🟢看涨",
-        "volatility": 8.94
+        "volatility": 12.25
       }
     },
     "sh603501": {
       "name": "豪威集团",
-      "last_close": 86.68,
-      "latest_date": "2026-11-24",
+      "last_close": 83.84,
+      "latest_date": "2026-11-25",
       "kline_count": 261,
       "forecast": [
         {
-          "date": "2026-11-25",
-          "open": 87.15,
-          "high": 88.05,
-          "low": 85.74,
-          "close": 86.48
-        },
-        {
           "date": "2026-11-26",
-          "open": 86.65,
-          "high": 87.48,
-          "low": 85.23,
-          "close": 85.82
+          "open": 84.33,
+          "high": 85.61,
+          "low": 83.18,
+          "close": 84.17
         },
         {
           "date": "2026-11-27",
-          "open": 86.31,
-          "high": 87.6,
-          "low": 85.18,
-          "close": 86.13
+          "open": 84.5,
+          "high": 85.77,
+          "low": 82.93,
+          "close": 83.46
         },
         {
           "date": "2026-11-30",
-          "open": 86.29,
-          "high": 88.58,
-          "low": 83.24,
-          "close": 87.16
+          "open": 83.82,
+          "high": 84.76,
+          "low": 82.2,
+          "close": 83.05
         },
         {
           "date": "2026-12-01",
-          "open": 86.75,
-          "high": 89.17,
-          "low": 85.38,
-          "close": 86.66
+          "open": 84.07,
+          "high": 85.79,
+          "low": 82.26,
+          "close": 83.39
+        },
+        {
+          "date": "2026-12-02",
+          "open": 84.11,
+          "high": 85.43,
+          "low": 82.17,
+          "close": 83.14
         }
       ],
       "summary": {
-        "pred_close": 86.66,
-        "pred_high": 89.17,
-        "pred_low": 83.24,
-        "change_pct": -0.02,
+        "pred_close": 83.14,
+        "pred_high": 85.79,
+        "pred_low": 82.17,
+        "change_pct": -0.83,
         "direction": "🔴看跌",
-        "volatility": 6.84
+        "volatility": 4.35
       }
     }
   }
